@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body{
+  background: #23252C;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  background: #1A1B21;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.main-img{
+  width: 300px;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+header{
+  text-align: center;
+}
+
+header h1{
+  font-size: 1.56rem;
+  letter-spacing: 1px;
+}
+
+header h2{
+  font-size: 0.8rem;
+  color: #F3BF99;
+  font-weight: normal;
+  margin: 0.5em 0;
+}
+
+header p, .about p, .interests p{
+  font-size: 0.64rem;
+  letter-spacing: 0.7px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.fa-envelope, .fa-linkedin{
+  margin-right: 0.3em;
+}
+
+.btn-container{
+  display: flex;
+  padding: 1em 0;
+  justify-content: center;
+  gap: 2em;
+}
+
+.btn-container a{
+  font-size: 0.875rem;
+}
+
+
+button{
+  width: 100px;
+  padding: 0.5em 0.8em;
+  border: none;
+  border-radius: 6px;
+}
+
+.email,.email i{
+  color: #1E1F26;
+}
+
+.btn-primary{
+  background: #5093E2;
+}
+
+
+.linkedin,.linkedin i{
+  color: white;
+}
+
+.about, .interests{
+  padding: 1em 2em;
+}
+.about h3, .interests h4{
+  font-size: 1rem;
+  margin-bottom: 0.5em;
+}
+
+.about p, .interests p{
+  line-height: 1.5em;
+}
+
+.footer{
+  background: #161619;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer i{
+  color: #918E9B;
+  font-size: 1.5rem;
+}
+
+.fa-instagram:hover, .fa-instagram:focus, .fa-github:hover, .fa-github:focus{
+  color: white;
+  transition: 0.5s linear;    
+}
